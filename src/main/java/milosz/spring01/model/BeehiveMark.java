@@ -7,7 +7,7 @@ public enum BeehiveMark {
     BAD("BAD");
 
     private final String name;
-
+    //private constructor not required for enum as they are private by default
     private BeehiveMark(String name) {
         this.name=name;
     }
